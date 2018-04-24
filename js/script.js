@@ -14,3 +14,4 @@ function getJoke(){
 	});
 	xhr.send();
 }
+$('p').text(getJoke);  // get joke without click button "random joke" :) 
